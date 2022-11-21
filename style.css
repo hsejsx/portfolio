@@ -1,0 +1,41 @@
+:root {
+  --color-pink: #ffc8dd;
+  --color-purple: #d4b2dc;
+  --color-purple-dark: #98a2d6;
+  --color-blue: #4a93c1;
+  --color-green: #006e66;
+  --color-green-light: #00839b;
+  --color-white: #fff;
+  --border-radius: 4px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 0.5rem;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list__item {
+  border: 1px solid transparent;
+  border-radius: var(--border-radius);
+}
+
+.nav__list__item:hover {
+  border-color: var(--color-white);
+}
+
+.nav__list__item a {
+  display: block;
+  padding: 1em;
+}
