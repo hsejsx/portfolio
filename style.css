@@ -163,3 +163,90 @@
 .skill__title {
   margin-bottom: 0.5rem;
 }
+
+/* Projects */
+
+.project__category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.category__list__item {
+  border: 1px solid gray;
+  border-radius: var(--border-radius);
+}
+
+.category__list__item button {
+  padding: 0 1em;
+  height: 2em;
+  transition: background-color 200ms ease;
+}
+
+.category__list__item button:hover {
+  background-color: var(--color-purple);
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  text-align: left;
+}
+
+.project:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.project__img {
+  flex-basis: 50%;
+}
+
+.project__img img {
+  display: block;
+  width: 100%;
+  max-width: 575px;
+  height: auto;
+}
+
+.project__information {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.project__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.proejct__description {
+  margin-bottom: 1rem;
+}
+
+.project__links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.project__links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  flex-basis: 50%;
+  border: 1px solid gray;
+  border-radius: var(--border-radius);
+  transition: background-color 200ms ease;
+}
+
+.project__links a:hover {
+  color: var(--color-white);
+  background-color: var(--color-purple);
+}
+
+.project__links a:first-child {
+  margin-right: 1rem;
+}
