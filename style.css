@@ -21,6 +21,15 @@
   padding: 1rem 0.5rem;
 }
 
+.header__title a {
+  padding-left: 1rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.header__title:hover {
+  transform: scale(0.95);
+}
+
 .nav__list {
   display: flex;
   align-items: center;
