@@ -250,3 +250,71 @@
 .project__links a:first-child {
   margin-right: 1rem;
 }
+
+/* Contact */
+
+#contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  padding: 8rem 0 6.25rem;
+  background: rgb(255, 200, 221);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 200, 221, 1) 21%,
+    rgba(212, 178, 220, 1) 100%
+  );
+}
+
+.contact__information {
+  display: flex;
+  align-items: center;
+}
+
+.mail {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.contact__links {
+  font-size: 4rem;
+  border-left: 3px dashed #626262;
+  padding-left: 1rem;
+}
+
+.contact__links a {
+  transition: opacity 200ms ease;
+}
+
+.contact__links a:hover {
+  opacity: 0.5;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 2em;
+}
+
+.contact__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.contact__bg svg {
+  position: relative;
+  display: block;
+  width: calc(174% + 1.3px);
+  height: 197px;
+}
+
+.contact__bg .shape-fill {
+  fill: #ffffff;
+}
