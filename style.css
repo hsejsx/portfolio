@@ -55,6 +55,11 @@
   text-align: center;
 }
 
+.section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .section__title {
   font-size: 2rem;
   line-height: 1.3;
